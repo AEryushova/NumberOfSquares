@@ -7,7 +7,7 @@ public class SQRService {
         for (int i = 10; i <= 99; i++) {
             sqr = i * i;
             if (sqr >= borBott && sqr <= borTop) {
-                sqrNumber=sqrNumber +1;
+                sqrNumber = sqrNumber +1;
             }
         }
         return sqrNumber;

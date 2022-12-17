@@ -5,7 +5,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
 
-public class SQRServiceTest {
+public class SqeServiceTest {
     @ParameterizedTest
     @CsvFileSource(files = "src/test/resources/sqr.csv")
 
